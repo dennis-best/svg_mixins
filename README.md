@@ -28,6 +28,12 @@ __Techniques for faster/more efficient image serving__
 
 3. Create a mixin with an SVG file as as background image. With clever use of *inline-image{}* rather than *image{}*, SASS automatically converts the image to Base64 and places it inline. This means images load with the markup. 
 
+###What's you needed
+
+Modernizer <http://modernizr.com/>
+SASS/SCSS <http://sass-lang.com/>
+
+Laziness, a desire for perfection, and a willingness to kiss pixels goodbye.
 
 ###What does this mean?
 ![Unscaled](http://cl.ly/image/113o1c2c2y28/Screen%20Shot%202012-11-17%20at%201.57.34%20PM.png)
