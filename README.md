@@ -18,7 +18,7 @@ __Techniques for faster/more efficient image serving__
 
 - Encode images as *base64* and include them inline to reduce the number of header calls. Naturally, doing this manually is a chore and would bloat your code with unreadable junk. 
 
-- *Use an icon font* for commonly used icons. Since these are monochromatic, this doesn't work for all of your images. Unless you use a custom font -- also a trick to maintain -- you're still probably serving more information than you need. The markup for this technique is also a bit weird. And finally, you navy have to deal with browser support and image fallbacks.
+- *Use an icon font* for commonly used icons. Since these are monochromatic, this doesn't work for all of your images. Unless you use a custom font -- also a trick to maintain -- you're still probably serving more information than you need. The markup for this technique is also a bit weird. And finally, you may have to deal with browser support and image fallbacks.
 
 ##The solution: SVG Mixins! 
 
